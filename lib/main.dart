@@ -49,7 +49,6 @@ class _MyHomePageState extends State<MyHomePage> {
     CourseProvider provider = Provider.of<CourseProvider>(context, listen: false);
     provider.initData(); // โหลดข้อมูลหลักสูตร
   }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
